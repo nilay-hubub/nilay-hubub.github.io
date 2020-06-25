@@ -1,0 +1,55 @@
+.page-content-wrapper {
+    height: 100%;
+}
+
+/* .main-intro-grid-wrapper {
+    
+} */
+
+.main-intro-wrapper {
+    position: relative;
+    padding: 0 100px;
+}
+
+.main-intro-background-illustration {
+    height: 550px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;    
+}
+
+.main-intro-statement {
+    justify-content: center;
+    text-align: center;
+}
+
+.main-intro-statement h1 {
+    font-size: 55px;
+    font-weight: 600;
+    color: rgb(237, 17, 116);
+}
+
+/* second section */
+.home-page-content2 {
+    background-color: rgb(242, 242, 243);
+}
+
+.app-intro-image-wrapper {
+    padding: 100px 0;
+}
+
+.app-slogan h1 {
+    font-size: 100px;
+    font-weight: 600;
+    color: rgb(80, 166, 142);
+}
+
+.app-description {
+    padding: 0 100px;
+    padding-bottom: 40px;
+}
+
+.app-description p {
+    font-size: 25px;
+    text-align: justify;
+}

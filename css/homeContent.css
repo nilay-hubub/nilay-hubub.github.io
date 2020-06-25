@@ -1,0 +1,59 @@
+.content-wrapper {
+    display: grid;
+    grid-template-columns: 1fr;
+    padding: 20px 0;
+}
+
+.home-page-content {
+    padding: 0 100px;
+}
+
+.app-intro-image-wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.app-intro-wrapper {
+    display: block;
+    margin: auto;
+}
+
+/* .app-description-wrapper {
+
+} */
+
+.app-heading {
+    color: rgb(237, 17, 116);
+}
+
+.app-heading h1 {
+    font-size: 55px;
+    font-weight: 700;
+}
+
+.small-app-description {
+    font-size: 25px;
+}
+
+.app-download-buttons-wrapper {
+    display: flex;
+}
+
+.app-download-button {
+    padding:20px;
+}
+
+.app-download-button  img {
+    width: 150px;
+    height: auto;
+}
+
+.app-illustration-image {
+    display: block;
+    margin: auto;
+}
+
+.app-illustration-image img {
+    height: 660px;
+    width: auto;
+}
