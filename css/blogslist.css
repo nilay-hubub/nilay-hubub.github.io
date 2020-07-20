@@ -1,0 +1,56 @@
+.blogs-list-wrapper {
+    padding: 40px 100px;
+    padding-bottom: 60px;
+    overflow: auto;
+}
+
+.blogs-list-title-wrapper {
+    padding-left: 100px;
+}
+
+.blog-list {
+    display: grid;
+    grid-template-columns: repeat(3, 70%);
+    grid-auto-flow: column;
+}
+
+.blog-wrapper {
+    padding-right: 100px;
+}
+
+.blog-content-wrapper {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    display: flex;
+}
+
+.blog-image-wrapper {
+
+}
+
+.blog-image {
+    height: 200px;
+    width: 200px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.blog-details-wrapper {
+    padding: 0px 10px;
+}
+
+.blog-title-wrapper {
+
+}
+
+.blog-title-wrapper p {
+    word-wrap: break-word;
+}
+
+.blog-writer-name-wrapper {
+    padding: 5px 0;
+}
+
+.blog-date-wrapper {
+
+}
