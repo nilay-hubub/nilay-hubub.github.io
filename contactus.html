@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+
+    <link rel="stylesheet" href="css/contactus.css">
+
+    <!-- load header and footer files -->
+    <script src="https://code.jquery.com/jquery-3.3.1.js"
+        integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous">
+        </script>
+    <script>
+        $(function () {
+            $("#header").load("header.html");
+            $("#footer").load("footer.html");
+        });
+    </script>
+</head>
+
+<body>
+
+    <!-- page header -->
+    <div id="header"></div>
+
+    <!-- contact form -->
+   <div class="main-div">
+    <div class="contact-us-section">
+        
+        <div class="contact-us-form-wrapper">
+
+            <div class="contact-us-form">
+
+                <div class="input-field-wrapper">
+                    
+                    <div class="input-field-name-wrapper">
+                        <label for="name" class="input-label">Full Name</label>
+                    </div>
+                    
+                    <input type="text" name="name" id="name" class="name input-field-box">
+
+                </div>
+
+                <div class="input-field-wrapper">
+                    
+                    <div class="input-field-name-wrapper">
+                        <label for="email" class="input-label">Email</label>
+                    </div>
+                    <input type="email" name="email" id="email" class="email input-field-box">
+
+                </div>
+
+                <div class="input-field-wrapper">
+                    
+                    <div class="input-field-name-wrapper">
+                        <label for="phone" class="input-label">Phone Number</label>
+                    </div>
+                    <input type="tel" name="phone" id="phone" class="phone input-field-box">
+
+                </div>
+
+                <div class="input-field-wrapper">
+                    
+                    <div class="input-field-name-wrapper">
+                        <label for="message" class="input-label">Your Message</label>
+                    </div>
+                    <textarea name="message" id="message" rows="10" class="message input-field-box"></textarea>
+
+                </div>
+
+                <div class="submit-button-wrapper">
+                    <input type="submit" value="Submit" class="submit-button">
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+   </div>
+
+    <!-- page footer -->
+    <div id="footer"></div>
+
+</body>
+
+</html>
