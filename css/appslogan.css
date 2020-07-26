@@ -33,11 +33,11 @@
     font-weight:600;
     line-height: 0.65em;
     height: 85px;
-    text-shadow: 3px 10px 5px black;
+    /* text-shadow: 3px 10px 5px black; */
     position:relative;
     color: rgb(80, 166, 142);
 }
-.layer1{
+/* .layer1{
     z-index: 3;
 }
 .layer2{
@@ -45,7 +45,7 @@
 }
 .layer3{
     z-index: 1;
-}
+} */
 
 .app-slogan{
     padding-bottom: 50px;

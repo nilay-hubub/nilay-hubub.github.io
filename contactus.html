@@ -18,6 +18,7 @@
             $("#footer").load("footer.html");
         });
     </script>
+    
 </head>
 
 <body>
@@ -27,57 +28,69 @@
 
     <!-- contact form -->
    <div class="main-div">
-    <div class="contact-us-section">
+        <section>
+            <div class="contact-us-section">
         
-        <div class="contact-us-form-wrapper">
-
-            <div class="contact-us-form">
-
-                <div class="input-field-wrapper">
-                    
-                    <div class="input-field-name-wrapper">
-                        <label for="name" class="input-label">Full Name</label>
+                <div class="contact-us-form-wrapper">
+        
+                    <div class="contact-us-form">
+                        
+                        <!-- form title -->
+                        <div class="contact-us-form-title">
+                            <span>Say hello, we would love to hear from you.</span>
+                        </div>
+                        
+                        <!-- name -->
+                        <div class="input-field-wrapper">
+                            
+                            <div class="input-field-name-wrapper">
+                                <label for="name" class="input-label">Full Name</label>
+                            </div>
+                            
+                            <input type="text" name="name" id="name" class="name input-field-box">
+        
+                        </div>
+        
+                        <!-- email -->
+                        <div class="input-field-wrapper">
+                            
+                            <div class="input-field-name-wrapper">
+                                <label for="email" class="input-label">Email</label>
+                            </div>
+                            <input type="email" name="email" id="email" class="email input-field-box">
+        
+                        </div>
+        
+                        <!-- phone -->
+                        <div class="input-field-wrapper">
+                            
+                            <div class="input-field-name-wrapper">
+                                <label for="phone" class="input-label">Phone Number</label>
+                            </div>
+                            <input type="tel" name="phone" id="phone" class="phone input-field-box">
+        
+                        </div>
+        
+                        <!-- message -->
+                        <div class="input-field-wrapper">
+                            
+                            <div class="input-field-name-wrapper">
+                                <label for="message" class="input-label">Your Message</label>
+                            </div>
+                            <textarea name="message" id="message" rows="10" class="message input-field-box"></textarea>
+        
+                        </div>
+        
+                        <!-- submit -->
+                        <div class="submit-button-wrapper">
+                            <input type="submit" value="Submit" class="submit-button">
+                        </div>
                     </div>
-                    
-                    <input type="text" name="name" id="name" class="name input-field-box">
-
+        
                 </div>
-
-                <div class="input-field-wrapper">
-                    
-                    <div class="input-field-name-wrapper">
-                        <label for="email" class="input-label">Email</label>
-                    </div>
-                    <input type="email" name="email" id="email" class="email input-field-box">
-
-                </div>
-
-                <div class="input-field-wrapper">
-                    
-                    <div class="input-field-name-wrapper">
-                        <label for="phone" class="input-label">Phone Number</label>
-                    </div>
-                    <input type="tel" name="phone" id="phone" class="phone input-field-box">
-
-                </div>
-
-                <div class="input-field-wrapper">
-                    
-                    <div class="input-field-name-wrapper">
-                        <label for="message" class="input-label">Your Message</label>
-                    </div>
-                    <textarea name="message" id="message" rows="10" class="message input-field-box"></textarea>
-
-                </div>
-
-                <div class="submit-button-wrapper">
-                    <input type="submit" value="Submit" class="submit-button">
-                </div>
+        
             </div>
-
-        </div>
-
-    </div>
+        </section>
    </div>
 
     <!-- page footer -->

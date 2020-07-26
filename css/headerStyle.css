@@ -42,18 +42,18 @@ body {
 }
 
 .nav-link {
-    border-bottom: 1px solid transparent;
+    border-bottom: 2px solid transparent;
     transition: border-bottom 0.5s;
     padding-bottom: 5px;
 }
 
 .nav-link a {
     color: rgba(22, 50, 89, 0.7);
-    transition: color 0.5s;
+    transition: all 0.5s;
 }
 
 .nav-link:hover {
-    border-bottom: 1px solid rgb(22, 50, 89);
+    border-bottom: 2px solid rgb(22, 50, 89);
 }
 
 .nav-link a:hover {

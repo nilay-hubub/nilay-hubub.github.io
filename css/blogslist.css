@@ -1,56 +1,73 @@
-.blogs-list-wrapper {
-    padding: 40px 100px;
-    padding-bottom: 60px;
-    overflow: auto;
-}
-
-.blogs-list-title-wrapper {
+/* Category title */
+.blog-list-category-title-wrapper {
+    color: rgb(80, 166, 142);
+    font-size: 15px;
     padding-left: 100px;
+    padding-top: 5rem;
 }
 
-.blog-list {
-    display: grid;
-    grid-template-columns: repeat(3, 70%);
-    grid-auto-flow: column;
+/* blog category list */
+.blog-list-section-wrapper {
+    background-color: rgb(242, 242, 243);
 }
 
-.blog-wrapper {
-    padding-right: 100px;
+.blog-list-wrapper {
+    padding: 50px 100px;
 }
 
-.blog-content-wrapper {
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+.blog-category-list-wrapper {
     display: flex;
+    justify-content: flex-start;
 }
 
-.blog-image-wrapper {
-
+.blog-category-item-wrapper {
+    color: rgba(22, 50, 89, 1);
+    padding-inline-end: 50px;
 }
 
-.blog-image {
-    height: 200px;
-    width: 200px;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+span.category-item {
+    position: relative;
+    font-size: 18px;
+    cursor: default;
 }
 
-.blog-details-wrapper {
-    padding: 0px 10px;
+span.category-item::before {
+    position: absolute;
+    content: "";
+    text-decoration: none;
+    width: 0;
+    bottom: 0;
+    height: 2px;
+    left: 50%;
+    visibility: hidden;
+    background-color: rgba(22, 50, 89, 1);
+    transition: all 0.3s ease-in-out;
 }
 
-.blog-title-wrapper {
-
+span.category-item:hover::before, span.active::before {
+    width: 100%;
+    left: 0;
+    visibility: visible;
 }
 
-.blog-title-wrapper p {
-    word-wrap: break-word;
+span.category-item::after {
+    text-decoration: underline;
 }
 
-.blog-writer-name-wrapper {
-    padding: 5px 0;
+/* blog list */
+
+.blog-grid-view-wrapper {
+    background-color: rgb(242, 242, 243);
 }
 
-.blog-date-wrapper {
+.blog-list-wrapper {
+    padding: 50px 100px;
+}
 
+#blog-list {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: 50px 0;
+    grid-column-gap: 100px;
+    grid-row-gap: 50px;
 }

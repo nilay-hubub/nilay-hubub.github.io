@@ -3,11 +3,12 @@
 
 <head>
     <meta charset="UTF-8">
-    <title>Home2 | hubub.me</title>
+    <title>Home | hubub.me</title>
     <link rel="stylesheet" href="css/homeContents.css">
     <link rel="stylesheet" href="css/appslogan.css">
-    <link rel="stylesheet" href="css/blogslist.css">
+    <!-- <link rel="stylesheet" href="css/blogslist.css"> -->
     <link rel="stylesheet" href="css/missions.css">
+    <link rel="stylesheet" href="css/newsletter.css">
 
     <!-- load header and footer files -->
     <script src="https://code.jquery.com/jquery-3.3.1.js"
@@ -52,7 +53,7 @@
             </div>
         </section>
 
-        <section>
+        <section id="about">
             <div class="home-page-content2">
                 <div class="app-intro-image-wrapper">
 
@@ -60,11 +61,11 @@
                         <!-- slogan and or small discription for app to show and download buttons for appstore and playstore -->
                         <div class="app-description-wrapper">
 
-                            <div class="app-slogan">
+                            <h1 class="app-slogan">
                                 <div class="box layer1">SEARCH</div>
                                 <div class="box layer2">DISCOVER</div>
                                 <div class="box layer3">CONNECT</div>
-                            </div>
+                            </h1>
 
 
                         </div>
@@ -204,7 +205,7 @@
 
         </section>
 
-        <section>
+        <!-- <section>
 
             <div class="blog-view-wrapper">
 
@@ -296,6 +297,39 @@
                 </div>
             </div>
 
+        </section> -->
+
+        <section>
+            <div class="newsletter-section">
+                <div class="newsletter-banner-wrapper">
+                
+                    <div class="newsletter-text-title-wrapper">
+    
+                        <div class="newsletter-title-wrapper">
+    
+                            <span class="signup">Sign up to our </span><span class="newsletter">Newsletter</span>
+    
+                        </div>
+    
+                        <!-- TODO: add link for terms for newsletter -->
+                        <div class="newsletter-subtext-wrapper">
+                            <span>
+                                Subscribe to receive our frequent e-newsletter with updates on hubub, our work and what's inspiring us. <br> In subscribing you agree to <a href="http://">these terms.</a> 
+                            </span>
+                        </div>
+                    </div>
+                    
+                    <div class="subscription-email-textfiled-wrapper">
+                        <div class="email-inputfield-wrapper">
+                            <input type="email" name="newsletter-email" id="newsletter-email" class="newsletter-email" placeholder="enter email">
+                        </div>
+                        <div class="signup-button-wrapper">
+                            <input type="submit" value="Sign up!" class="signup-button">
+                        </div>
+                    </div>
+    
+                </div>
+            </div>
         </section>
 
     </div>

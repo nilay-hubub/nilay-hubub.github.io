@@ -1,0 +1,26 @@
+
+.blog-wrapper {
+    justify-content: center;
+}
+
+.blog-cover-image-wrapper {
+    background-image: url("../resources/tempimages/blogimageforwebsite.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 300px;
+}
+
+.blog-list .blog-wrapper:nth-child(odd) {
+    height: 350px;
+}
+
+.blog-title-wrapper {
+    font-weight: normal;
+}
+
+.blog-title-wrapper h2 {
+    font-size: 18px;
+}
+
+
